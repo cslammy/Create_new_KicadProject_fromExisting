@@ -12,9 +12,9 @@ This Powershell script:
 
 --Creates a new project folder and copies all files from new to old
 
---Deletes all dreck from new project folder except *.kicad_sch, *.kicad_pro, *.kicad_brd, and *.wks
+--Deletes all dreck from new project folder except *.kicad_sch, *.kicad_pro, *.kicad_brd, and *.wks files
 
---renames all files in the new directory with the name of the directory, but leaves extensions names intact.
+--renames all files in the new project directory with the name of the new project, but leaves extensions names intact.
 
 The script is a bit rough, for instance, you have to X out of the copy form to get the script to keep chuffing, but, hey, it works.
 
