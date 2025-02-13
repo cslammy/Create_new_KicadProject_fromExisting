@@ -16,6 +16,8 @@ This Powershell script:
 
 --renames all files in the new directory with the name of the directory, but leaves extensions names intact.
 
-This is still a bit rough, for instance, you have to X out of the copy dialog to get the script to keep chuffing, but, hey, it works.
+The script is a bit rough, for instance, you have to X out of the copy form to get the script to keep chuffing, but, hey, it works.
+
+You will need a relatively recent version of Powershell or VSCODE with Powershell extensions, etc., installed on your Window$ system to make this go.
 
 More info: see this blog post. https://audiodiwhy.blogspot.com/2023/09/kicad-making-switch.html
