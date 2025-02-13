@@ -1,7 +1,7 @@
 # Create_new_KicadProject_fromExisting
 Powershell script to automate making new Kicad projects out of existing ones.
 Unlike Eagle, Kicad has a one project/one PCB limit.
-I often want to clone an existing project and create an entirely new one, without having to resort to version control.
+I often want to clone an existing project without having to resort to version control.
 This has meant copying the old project folder, renaming the new folder, cleaning out unneeded files in the new folder, and renaming the new files in the new folder to match the name of the new project.
 
 This Powershell script:
