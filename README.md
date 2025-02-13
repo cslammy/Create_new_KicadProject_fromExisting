@@ -10,7 +10,7 @@ This Powershell script:
 
 --Asks you to give the new project folder a name.
 
---Copies all files from new to old
+--Creates a new project folder and copies all files from new to old
 
 --Deletes all dreck from new project folder except *.kicad_sch, *.kicad_pro, *.kicad_brd, and *.wks
 
