@@ -11,7 +11,7 @@ This Powershell script:
 
 --Copies all files from new to old
 
---Deletes all dreck from new project folder except .kicad_sch, .kicad_pro, .kicad_brd, and .wks
+--Deletes all dreck from new project folder except *.kicad_sch, *.kicad_pro, *.kicad_brd, and *.wks
 
 --renames all files in the new directory with the name of the directory, but leaves extensions names intact.
 
