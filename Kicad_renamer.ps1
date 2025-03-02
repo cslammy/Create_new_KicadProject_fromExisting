@@ -91,8 +91,11 @@ if (Test-Path $folderPath) {
     Get-ChildItem -Path $folderPath -File | Where-Object { 
         $_.Extension -notin @(".kicad_sch", ".kicad_pro", ".kicad_pcb", ".wbk") 
     } | Remove-Item -Force
+    
+    #get rid of "-backups" folder
+    Get-ChildItem -Path $folderpath -Directory -Filter "*-backups" | Remove-Item -Recurse -Force
 
-    Write-Host "Files deleted successfully, except for the specified extensions."
+    Write-Host "Unneeded Files and folders deleted successfully, except for the specified extensions."
 } else {
     Write-Host "The specified folder does not exist."
 }
@@ -120,7 +123,7 @@ if (Test-Path $folderPath) {
         Rename-Item -Path $_.FullName -NewName $newName
         Write-Host "Renamed: $($_.Name) -> $newName"
     }
-    Write-Host "All files have been renamed successfully."
+    Write-Host "All newly copied files have been renamed successfully."
     Write-Host "Boy Howdy! You have created a new good to go Kicad Project Directory."
 } else {
     Write-Host "The folder does not exist."
