@@ -1,3 +1,5 @@
+THIS SCRIPT IS DEPRECATED. KICAD 9 HAS A "SAVE AS" FEATURE UNDER "FILE" WHICH DOES THE SAME THING AS THIS SCRIPT--USE THAT.
+
 # Create_new_KicadProject_fromExisting
 Powershell script to automate making new Kicad projects out of existing ones.
 Unlike Eagle, Kicad has a one project/one PCB limit.
